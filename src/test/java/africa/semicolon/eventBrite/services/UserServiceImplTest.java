@@ -17,6 +17,7 @@ class UserServiceImplTest {
     @Autowired
     private UserRepository userRepository;
 
+
     @Test
     public void registerUserTest(){
         RegisterUserRequest request = new RegisterUserRequest();

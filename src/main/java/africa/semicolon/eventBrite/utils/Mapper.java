@@ -6,6 +6,7 @@ import africa.semicolon.eventBrite.dto.responses.RegisterUserResponse;
 
 import java.time.format.DateTimeFormatter;
 
+
 public class Mapper {
     public static User map(RegisterUserRequest request) {
         User user = new User();

@@ -15,6 +15,7 @@ import java.time.format.DateTimeFormatter;
 @Service
 public class UserServiceImpl implements UserService{
     @Autowired
+
     private UserRepository userRepository;
     @Override
     public RegisterUserResponse registerUser(RegisterUserRequest request) {
